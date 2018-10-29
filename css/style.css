@@ -1,7 +1,23 @@
+body {
+     background-color: #f4f0f1;
+}
 
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.rss-container{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2dc4a2;
+    padding: 20px;
+}
 
 .rss-sidebar{
-    background-color: silver;
     overflow: hidden;
     height: 20px;
     position:relative;
